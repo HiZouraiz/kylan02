@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Subtle",
+    "slug": "Subtle",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#7fa9e2"
+    },
+    "android": {
+      "package": "com.Subtle.Subtle",
+      "permissions": [
+        "NOTIFICATIONS",
+        "USER_FACING_NOTIFICATIONS",
+        "LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_CONTACTS",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA_ROLL",
+        "CAMERA"
+      ],
+      "useNextNotificationsApi": true,
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDH1BI-BJUiOP69alhfisepNLSB3L6JuSI"
+        },
+        "googleSignIn": {
+          "apiKey": "AIzaSyA58fEHCI9rjDH8dRkh-F78tR-VnFakKb4",
+          "certificateHash": "8B:1A:4B:84:D9:6C:BD:B9:87:47:36:DF:CA:26:F8:55:E8:0B:F7:FB"
+        }
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "facebookScheme": "fb694000674480124",
+    "facebookAppId": "694000674480124",
+    "facebookDisplayName": "Dating"
+  }
+}
